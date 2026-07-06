@@ -1,0 +1,10 @@
+spring:
+  application:
+    name:  exercise01chatclient
+  ai:
+    ollama:
+      baase-url:  http://local:11434
+      chat:
+        model:  llama3.2
+        temperate: 0.7
+

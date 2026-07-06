@@ -1,0 +1,9 @@
+spring:
+  application:
+    name:  exercise01chatclient
+  ai:
+    ollama:
+      base-url:  http://local:11434
+      embedding:
+        model:  nomic-embed-text
+
