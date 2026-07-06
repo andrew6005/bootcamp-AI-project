@@ -1,0 +1,70 @@
+Document Title:   IT Security Policy
+Company:          ACME Corporation
+Version:          2.1
+Department:       Information Technology
+Effective Date:   March 1, 2024
+Classification:   Confidential
+
+ACME Corporation — IT Security Policy (2024 Edition)
+
+=== SECTION 1: NETWORK SECURITY ===
+
+Firewall and Perimeter
+All inbound and outbound network traffic is monitored by the IT Security team. Employees must not attempt to bypass or disable firewall rules. Any device connecting to the corporate network must comply with ACME's endpoint security standards.
+
+VPN Requirements
+Remote access to internal systems requires the ACME VPN client. The VPN must be active at all times when accessing internal resources from outside the office. Sharing VPN credentials with third parties is strictly prohibited.
+
+Wi-Fi Usage
+Employees must connect only to secured, password-protected networks when working remotely. Use of public Wi-Fi (airports, cafes) requires the VPN to be active. Corporate Wi-Fi SSIDs must not be disclosed to visitors or contractors.
+
+=== SECTION 2: INCIDENT RESPONSE ===
+
+Reporting a Security Incident
+Any suspected security incident — including phishing emails, malware infections, unauthorized access, or lost devices — must be reported to the IT Security team within 24 hours of discovery. Contact: security@acme.com or the IT helpdesk hotline.
+
+Incident Classification
+- Critical: Active data breach, ransomware, or system compromise. Response team engaged within 1 hour.
+- High: Suspected unauthorized access or credential theft. Response within 4 hours.
+- Medium: Policy violations or suspicious activity. Response within 24 hours.
+
+CISO Contact
+The Chief Information Security Officer (CISO) is the final escalation point for all Critical and High incidents. Out-of-hours emergencies should be directed to the security on-call line.
+
+=== SECTION 3: DATA CLASSIFICATION ===
+
+ACME classifies all data into four tiers:
+
+Public
+Information approved for external distribution (press releases, product brochures). No special handling required.
+
+Internal
+General business information not intended for public release (internal memos, process documentation). Must not be shared with external parties without manager approval.
+
+Confidential
+Sensitive business data (financial projections, personnel records, client contracts). Must be encrypted in transit and at rest. Access restricted to authorized personnel only.
+
+Restricted
+Highest sensitivity (trade secrets, cryptographic keys, merger and acquisition data). Access requires written CISO approval. Must be stored in approved secure vaults only.
+
+=== SECTION 4: SOFTWARE AND ASSET MANAGEMENT ===
+
+Approved Software List
+Only software on the ACME Approved Software List (ASL) may be installed on company devices. The ASL is maintained by the IT department and reviewed quarterly. Requests to add new software must be submitted via the IT portal.
+
+Shadow IT Prohibition
+Employees must not use unauthorized cloud services, personal Google Drive accounts, or unapproved SaaS tools to store or process company data. Violations may result in disciplinary action.
+
+Asset Audits
+All company devices are subject to quarterly audits to verify installed software, patch levels, and compliance with endpoint security policies. Non-compliant devices will be quarantined until remediated.
+
+=== SECTION 5: THIRD-PARTY ACCESS ===
+
+Vendor Onboarding
+External vendors requiring access to ACME systems must sign a Non-Disclosure Agreement (NDA) and complete ACME's security onboarding checklist before credentials are issued.
+
+Access Provisioning
+Vendor accounts are time-limited and scoped to the minimum access required (principle of least privilege). Access expiry dates must be set at provisioning and may not exceed the contract end date.
+
+Access Revocation
+When a vendor engagement ends, IT Security must revoke all credentials within 24 hours. The engagement owner is responsible for notifying IT Security at least 3 business days before contract termination.
